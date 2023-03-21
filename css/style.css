@@ -3,7 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 /* regole debug */
 /* header {
     background-color:
@@ -37,32 +43,30 @@
   
 
 } */
-.foot{
+/* .foot{
     background-color: darkslategrey;
     height: 40px;
-}
-.end{
+} */
+/* .end{
     background-color: brown;
   
-}
-a{
-    text-decoration: none;
-    color: white;
-}
+} */
 
-footer {
+
+/* footer {
     background-color: slategrey;
     min-height: 400px;
-}
+} */
 
-.foot {
+/* .foot {
     background-color: chartreuse;
     min-height: 200px;
     width: 20%;
-}
-body{
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
-}
+} */
+/* .end{
+    background-color: brown;
+  
+} */
 /* regole nav  */
 header{
     min-height: 590px;
@@ -146,6 +150,10 @@ header{
     color: white;
     
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 
 
 /* regole corpo centrale */
@@ -155,7 +163,12 @@ header{
   
     
 }
-
+.second {
+    display: flex;
+    justify-content:center ;
+    background-color: lightgray;
+   
+}
 .img{
     padding-top: 100px;
     margin-right: 20px;
@@ -178,7 +191,7 @@ header{
 .fourth{
     text-align: center;
     padding-top: 300px;
-   
+    background-color: lightgray;
 } 
 .text-image{
     text-align: center;
@@ -209,37 +222,68 @@ header{
 
 
 /* regole footer  */
+footer{
+    background-color:#23272a ;
+    min-height: 600px;
+}
 .hfoot{
     display: flex;
     justify-content: space-around;
-
+   
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+.fix{
+    margin-top: -20px;
+   
+}
+#arrow{
+    color: white;
 }
 
+.ita{
+    width: 25px;
+    height: 15px;
+    margin-top: 20px;
+}
+.interact{
+    display: flex;
+   
+    justify-content:space-between;
+    font-size: 20px;
+    max-width: 150px;
+}
 .foot {
     display: flex;
     flex-direction:column;
-    width: 10%;
+    justify-content: space-around;
+    width: 250px;
     margin-top: 40px;
-   
+    color: #7289da;
     
-
 }
 
-.interact { 
-    display: flex;
-    width: 15%;
-      
-}
-.last{
-    width: 80%;
-    height: 40px;
-}
+
+
+
 
 .end{
     display: flex;
     justify-content: space-between;
-    max-width: 80%;
-    margin-left: 200px;
-    margin-top: 150px;
+    max-width: 1300px;
+    margin-top: 180px;
+    margin-left: 150px;
+    border-top: solid 2px;
+    border-color:#7289da ;
     
+}
+.down-b{
+    width: 80px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: #7289da;
+    color: white;
+    border: none;
+    border-radius: 20px;
+
 }
