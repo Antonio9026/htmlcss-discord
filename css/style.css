@@ -26,8 +26,8 @@
   
 } */
 
-
-/* .img {
+/* 
+ .img {
     background-color: blue;
  
 } */
@@ -37,6 +37,18 @@
   
 
 } */
+.foot{
+    background-color: darkslategrey;
+    height: 40px;
+}
+.end{
+    background-color: brown;
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 
 footer {
     background-color: slategrey;
@@ -113,9 +125,6 @@ header{
     height: 40px;
     margin-top: 40px;
 }
-
-
-
 .input {
     text-align: center;
     margin-top: 10px;
@@ -138,27 +147,23 @@ header{
     
 }
 
-.foot{
-    background-color: darkslategrey;
-    height: 40px;
-}
-.end{
-    background-color: brown;
-  
-}
-a{
-    text-decoration: none;
-    color: white;
-}
 
 /* regole corpo centrale */
+.section {
+    display: flex;
+    justify-content:center ;
+  
+    
+}
+
 .img{
     padding-top: 100px;
-    min-height: 400px;
+    margin-right: 20px;
 }
 .center{
     width: 400px;
     padding-top: 130px;
+    margin-left: 20px;
 }
 
 .center-text{
@@ -170,13 +175,39 @@ a{
     padding-top: 20px;
     font-size:25px ;
 }
-
-.section {
-    display: flex;
-    justify-content:center ;
-  
+.fourth{
+    text-align: center;
+    padding-top: 300px;
+   
+} 
+.text-image{
+    text-align: center;
+    margin-top: 80px;
     
+   
 }
+.text-mac{
+    font-size:25px ;
+    margin-bottom: 40px;
+    min-height: 50px;
+    background-size:contain;
+    background-image:url("../img/stars.svg");
+
+}
+.mac{
+   
+    margin-bottom: 40px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 25px;
+    border:none;
+    background-color:#7289da ;
+    color: white;
+}
+
+
+
 /* regole footer  */
 .hfoot{
     display: flex;
