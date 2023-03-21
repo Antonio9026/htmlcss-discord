@@ -5,8 +5,8 @@
 }
 
 /* regole debug */
-header {
-    background-color: blueviolet;
+/* header {
+    background-color:
 }
 
 .row-up {
@@ -17,14 +17,15 @@ header {
 .logo {
     background-color: black;
 
-}
+} */
 
 
 
-.title {
+/* .title {
     background-color: darkgreen;
   
-}
+} */
+
 
 .img {
     background-color: blue;
@@ -47,19 +48,21 @@ footer {
     min-height: 200px;
     width: 20%;
 }
-
-
+body{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
 /* regole nav  */
 header{
-    min-height: 400px;
+    min-height: 590px;
+    background-image:url("../img/jumbo.png") ;
+    background-size:cover;
+   
 }
 
 .navigator {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-   
-    
    
 
 }
@@ -70,42 +73,75 @@ header{
     justify-content: space-around;
     width: 40%;
     height: 40px;
+    margin-top: 40px;
+    padding-right: 60px;
+    color: white;
 
 }
 .accedi {
     height: 40px;
-    width: 10%;
+    width: 80px;
+    border-radius: 30px;
+    margin-top: 40px;
+    border: none;
 }
 
 .head-title{
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 120px;
+   
 }
 .title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
-    
+    width: 60%;
+    font-size: 25px;
+    color:white ;
 
 }
-
+.text-title{
+    text-align: center;
+    margin-top: 40px;
+}
 .logo {
     width: 10%;
     height: 40px;
+    margin-top: 40px;
 }
 .center {
     background-color: aqua;
     width: 47%;
 
 }
+
+
 .input {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 25px;
+    border:none;
+    margin-right: 20px;
+    
 }
+.second-input{
+    background-color:#23272a ;
+    height: 50px;
+    width: 300px;
+    font-size:20px ;
+    border-radius: 25px;
+    border:none;
+    color: white;
+    
+}
+
 .foot{
     background-color: darkslategrey;
     height: 40px;
@@ -114,7 +150,10 @@ header{
     background-color: brown;
   
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 
 /* regole corpo centrale */
 .img{
