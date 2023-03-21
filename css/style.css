@@ -27,16 +27,16 @@
 } */
 
 
-.img {
+/* .img {
     background-color: blue;
  
-}
+} */
 
-.center {
+/* .center {
     background-color: aqua;
   
 
-}
+} */
 
 footer {
     background-color: slategrey;
@@ -113,11 +113,7 @@ header{
     height: 40px;
     margin-top: 40px;
 }
-.center {
-    background-color: aqua;
-    width: 47%;
 
-}
 
 
 .input {
@@ -157,15 +153,28 @@ a{
 
 /* regole corpo centrale */
 .img{
-    width: 42%;
+    padding-top: 100px;
     min-height: 400px;
+}
+.center{
+    width: 400px;
+    padding-top: 130px;
+}
+
+.center-text{
+    font-size: 50px;
+   
+    
+}
+.text-down{
+    padding-top: 20px;
+    font-size:25px ;
 }
 
 .section {
     display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-    
+    justify-content:center ;
+  
     
 }
 /* regole footer  */
